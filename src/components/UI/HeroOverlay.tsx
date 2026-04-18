@@ -280,8 +280,8 @@ style={{ paddingTop: "80px" }}
         <div
           className="absolute inset-0 flex items-center justify-center px-6 text-center"
           style={{
-            opacity: "calc(max(0, (var(--frame-mouth) - 0.45)) * 3.2)",
-            transform: "translateY(calc((1 - var(--frame-mouth)) * 40px))",
+            opacity: "calc(max(0, (var(--frame-mouth) - 0.55)) * 4.0)",
+            transform: "translateY(calc((1 - var(--frame-mouth)) * 20px))",
           }}
         >
           <img
