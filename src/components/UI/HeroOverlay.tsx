@@ -249,7 +249,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
       CORE SKILLS
     </p>
 
-    <h2 className="mt-6 font-display text-[clamp(3rem,8vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
+    <h2 className="mt-6 font-display text-[clamp(2rem,6vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
       Java systems, cloud automation & full-stack engineering
     </h2>
       
@@ -298,7 +298,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
             <p className="text-[11px] uppercase tracking-[0.55em] text-gold/80">
               FEATURED PROJECTS
             </p>
-            <h2 className="mt-6 font-display text-[clamp(3rem,8vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
+            <h2 className="mt-6 font-display text-[clamp(2rem,6vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
               Where real problems become deployed solutions
             </h2>
             
