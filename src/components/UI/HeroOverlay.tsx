@@ -126,7 +126,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
           <img
             src="/traveler-scene1.png"
             alt="Adventure Traveler"
-            className="absolute h-[900px] w-auto object-contain opacity-95"
+            className="absolute  hidden sm:block"
             style={{
               top: "0px",
               right: "600px",
@@ -183,7 +183,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
           <img
             src="/traveler-scene2.png"
             alt="Adventure Traveler"
-            className="absolute h-[900px] w-auto object-contain opacity-95"
+            className="absolute "
             style={{
               top: "10px",
               right: "600px",
@@ -191,7 +191,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
             }}
           />
 
-         <div className="ml-[420px] max-w-4xl text-left">
+         <div className="ml-0 sm:ml-[420px] max-w-4xl text-left">
   <p className="text-[11px] uppercase tracking-[0.55em] text-gold/80">
     THE FOUNDATION
   </p>
@@ -235,7 +235,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
   <img
     src="/traveler-scene3.png"
     alt="Adventure Traveler"
-    className="absolute h-[525px] w-auto object-contain opacity-95"
+    className="absolute  hidden sm:block"
     style={{
       top: "70px",
       right: "800px",
@@ -286,7 +286,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
           <img
             src="/traveler-scene4.png"
             alt="Adventure Traveler"
-            className="absolute h-[700px] w-auto object-contain opacity-95"
+            className="absolute  hidden sm:block"
             style={{
               top: "30px",
               right: "750px",
@@ -341,7 +341,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
         <img
           src="/traveler-scene5.png"
           alt="Adventure Traveler"
-          className="absolute h-[800px] w-auto object-contain opacity-95"
+          className="absolute  hidden sm:block"
           style={{
             top: "0px",
             right: "650px",
