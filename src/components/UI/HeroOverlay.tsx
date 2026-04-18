@@ -280,7 +280,7 @@ style={{ paddingTop: "80px" }}
         <div
           className="absolute inset-0 flex items-center justify-center px-6 text-center"
           style={{
-            opacity: "calc(max(0, (var(--frame-mouth) - 0.3)) * 2.4)",
+            opacity: "calc(max(0, (var(--frame-mouth) - 0.45)) * 3.2)",
             transform: "translateY(calc((1 - var(--frame-mouth)) * 40px))",
           }}
         >
