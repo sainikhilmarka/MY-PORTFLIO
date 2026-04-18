@@ -111,7 +111,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
 
       <div
         ref={containerRef}
-        className="pointer-events-none fixed inset-0 z-10 flex items-center justify-center px-5 text-center sm:px-8"
+        className="pointer-events-none fixed inset-0 z-10 flex items-center justify-center px-5 pt-16 text-center sm:px-8 sm:pt-20"
         
       >
         {/* 🎬 Scene 1 */}
@@ -139,7 +139,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
               B.TECH CSE · FRESHER 2025
             </p>
 
-            <h1 className="hero-animate font-display glow-blue mt-5 text-[clamp(3.7rem,10vw,8.5rem)] font-semibold leading-[0.88] tracking-[0.14em] text-white">
+            <h1 className="hero-animate font-display glow-blue mt-5 text-[clamp(2.8rem,8vw,8.5rem)] font-semibold leading-[0.88] tracking-[0.14em] text-white">
               SAINIKHIL MARKA
             </h1>
 
