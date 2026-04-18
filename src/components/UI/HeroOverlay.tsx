@@ -229,7 +229,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
   className="absolute inset-0 flex items-center justify-center px-6 text-center"
   style={{
     opacity: "calc(max(0, (var(--frame-cliff) - 0.18)) * 2.2)",
-    transform: "translateY(calc((1 - var(--frame-cliff)) * 160px))",
+    transform: "translateY(calc((1 - var(--frame-cliff)) * 100px))",
   }}
 >
   <img
@@ -280,7 +280,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
           className="absolute inset-0 flex items-center justify-center px-6 text-center"
           style={{
             opacity: "calc(max(0, (var(--frame-mouth) - 0.3)) * 2.4)",
-            transform: "translateY(calc((1 - var(--frame-mouth)) * 180px))",
+            transform: "translateY(calc((1 - var(--frame-mouth)) * 100px))",
           }}
         >
           <img
@@ -354,7 +354,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
             LET'S CONNECT
           </p>
 
-          <h2 className="mt-6 font-display text-[clamp(3rem,8vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
+          <h2 className="mt-6 font-display text-[clamp(1.8rem,5vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
             Let’s build something great together
           </h2>
 
