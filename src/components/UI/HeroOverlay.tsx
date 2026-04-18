@@ -361,7 +361,7 @@ style={{ paddingTop: "80px" }}
           </h2>
 
           {/* ✅ Clickable Certificate Buttons */}
-          <div className="mt-14 flex flex-wrap justify-center gap-4">
+          <div className="mt-4 sm:mt-14 flex flex-wrap justify-center gap-3">
             {[
               { label: "☕ Java", file: "/certificates/E213117 Java.pdf" },
               { label: "🐍 Python", file: "/certificates/E213117 Python.pdf" },
@@ -379,7 +379,7 @@ style={{ paddingTop: "80px" }}
               <button
                 key={cert.label}
                 onClick={() => setSelectedCert(cert.file)}
-                className="pointer-events-auto rounded-2xl border border-white/10 bg-white/[0.04] px-3 py-2 text-xs sm:px-5 sm:py-3 sm:text-sm tracking-[0.18em] text-white backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:border-cyan-300/30
+                className="pointer-events-auto rounded-xl border border-white/10 bg-white/[0.04] px-2 py-1.5 text-[10px] sm:px-5 sm:py-3 sm:text-sm tracking-[0.12em] text-white backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:border-cyan-300/30
                 style={{
                   boxShadow:
                     index === 5
