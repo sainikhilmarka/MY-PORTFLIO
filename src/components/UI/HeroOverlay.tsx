@@ -111,7 +111,8 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
 
       <div
         ref={containerRef}
-        className="pointer-events-none fixed inset-0 z-10 flex items-center justify-center px-5 pt-16 text-center sm:px-8 sm:pt-20"
+        className="pointer-events-none fixed inset-0 z-10 flex items-center justify-center px-5 text-center sm:px-8"
+style={{ paddingTop: "80px" }}
         
       >
         {/* 🎬 Scene 1 */}
@@ -229,7 +230,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
   className="absolute inset-0 flex items-center justify-center px-6 text-center"
   style={{
     opacity: "calc(max(0, (var(--frame-cliff) - 0.18)) * 2.2)",
-    transform: "translateY(calc((1 - var(--frame-cliff)) * 100px))",
+    transform: "translateY(calc((1 - var(--frame-cliff)) * 40px))",
   }}
 >
   <img
@@ -280,7 +281,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
           className="absolute inset-0 flex items-center justify-center px-6 text-center"
           style={{
             opacity: "calc(max(0, (var(--frame-mouth) - 0.3)) * 2.4)",
-            transform: "translateY(calc((1 - var(--frame-mouth)) * 100px))",
+            transform: "translateY(calc((1 - var(--frame-mouth)) * 40px))",
           }}
         >
           <img
@@ -298,7 +299,7 @@ const [selectedCert, setSelectedCert] = useState<string | null>(null);
             <p className="text-[11px] uppercase tracking-[0.55em] text-gold/80">
               FEATURED PROJECTS
             </p>
-            <h2 className="mt-6 font-display text-[clamp(2rem,6vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
+            <h2 className="mt-6 font-display text-[clamp(1.4rem,4vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
               Where real problems become deployed solutions
             </h2>
             
