@@ -300,7 +300,7 @@ style={{ paddingTop: "80px" }}
               FEATURED PROJECTS
             </p>
             <h2 className="mt-6 font-display text-[clamp(1.4rem,4vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
-              Where real problems become deployed solutions
+              projects
             </h2>
             
             <div className="mt-10 grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-4">
