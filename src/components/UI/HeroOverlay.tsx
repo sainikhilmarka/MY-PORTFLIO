@@ -379,7 +379,7 @@ style={{ paddingTop: "80px" }}
               <button
                 key={cert.label}
                 onClick={() => setSelectedCert(cert.file)}
-                className="pointer-events-auto rounded-2xl border border-white/10 bg-white/[0.04] px-5 py-3 text-sm tracking-[0.18em] text-white backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:border-cyan-300/30"
+                className="pointer-events-auto rounded-2xl border border-white/10 bg-white/[0.04] px-3 py-2 text-xs sm:px-5 sm:py-3 sm:text-sm tracking-[0.18em] text-white backdrop-blur-xl transition-all duration-500 hover:scale-105 hover:border-cyan-300/30
                 style={{
                   boxShadow:
                     index === 5
@@ -392,7 +392,7 @@ style={{ paddingTop: "80px" }}
             ))}
           </div>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-white/80">
+          <p className="mx-auto mt-10 sm:mt-6 max-w-3xl text-base sm:text-lg leading-8 text-white/80">
             I’m a Java full-stack developer & DevOps engineer open to
             full-time roles across India. Let’s talk about how I can
             contribute from day one.
