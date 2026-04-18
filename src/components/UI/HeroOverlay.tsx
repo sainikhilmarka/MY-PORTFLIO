@@ -299,8 +299,9 @@ style={{ paddingTop: "80px" }}
             <p className="text-[11px] uppercase tracking-[0.55em] text-gold/80">
               FEATURED PROJECTS
             </p>
-            <h2 className="mt-6 font-display text-[clamp(1.4rem,4vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
-              projects
+            <h2 className="mt-6 font-display text-[1.3rem] sm:text-[clamp(3rem,8vw,5.6rem)] leading-[1.1] tracking-[0.06em] text-white">
+              Where real problems become deployed solutions
+              
             </h2>
             
             <div className="mt-10 grid max-w-4xl grid-cols-1 gap-4 sm:grid-cols-4">
@@ -355,8 +356,8 @@ style={{ paddingTop: "80px" }}
             LET'S CONNECT
           </p>
 
-          <h2 className="mt-6 font-display text-[clamp(1.8rem,5vw,5.6rem)] leading-[1.02] tracking-[0.06em] text-white">
-            Let’s build something great together
+          <h2 className="mt-6 font-display text-[1.3rem] sm:text-[clamp(3rem,8vw,5.6rem)] leading-[1.1] tracking-[0.06em] text-white">
+            Let's build something great together
           </h2>
 
           {/* ✅ Clickable Certificate Buttons */}
