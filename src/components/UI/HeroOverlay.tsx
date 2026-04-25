@@ -239,7 +239,7 @@ style={{ paddingTop: "80px" }}
     className="absolute  hidden sm:block"
     style={{
       top: "70px",
-      right: "800px",
+      right: "700px",
       rotate: "20deg",
       animation: "cliffWind 3.2s ease-in-out infinite",
     }}
