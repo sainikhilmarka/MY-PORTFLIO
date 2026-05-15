@@ -236,13 +236,22 @@ style={{ paddingTop: "80px" }}
   <img
   src="/traveler-scene3.png"
   alt="Adventure Traveler"
-  className="absolute hidden sm:block 
-             top-10 sm:top-16 
-             right-2 sm:right-20 md:right-40 lg:right-60 
-             rotate-[20deg]"
+  className="
+    absolute
+    hidden sm:block
+    bottom-0
+    left-[-140px]
+    md:left-[-80px]
+    lg:left-[-20px]
+    w-[320px]
+    md:w-[420px]
+    lg:w-[520px]
+    object-contain
+  "
   style={{
     animation: "cliffWind 3.2s ease-in-out infinite",
   }}
+/>
 />
 
   <div className="max-w-5xl">
